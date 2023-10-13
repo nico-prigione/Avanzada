@@ -1,0 +1,110 @@
+body{
+
+    background-color: aliceblue;
+    
+}
+
+header{
+    display: flex;
+    background-color:#e3f3f3;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.fondoIndex{ /*Portada pagina inicial*/
+    width: 100%;
+    height: auto;
+}
+
+a{ /*enlaces*/
+    text-decoration: none;
+    background-color: #bbe2e2;
+    padding: 2px;
+    font-size: large;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cabecera{
+    
+    text-align: left;
+    display: flex;
+    
+}
+
+label{ 
+    display:block; /*El inline se renderiza con lo demás que tenga seguido
+                            si tuvier :block lo que tenga despues lo pondrá en la siguiente línea*/
+    
+    text-align: left;
+    width:80px;     
+    
+}
+
+.formularioLogin{
+    display: inline-block;
+
+    background-color: wheat;
+
+    margin: 40px;
+    
+    font-size: large;
+    text-align: center;
+    border: 2px solid;
+    padding: 3px;    
+    border-radius: 0.5rem;
+}
+
+.required::after{ /*Indica al usuario los campos requeridos con '*' */
+    content:'*';
+    color:red;
+}
+
+.formularioContacto{
+    display: block;
+    font-size: large;
+    margin: 10px;
+    text-align: left;
+}
+
+input[type=submit]{
+
+    font-size: large;
+    background-color: antiquewhite;
+    
+}
+
+.valido{
+    width: fit-content; /*Adapta el ancho al contenido*/
+    
+    display: inline-block;
+
+    font-size: large;
+    text-align: center;
+    border: 2px solid;
+    padding: 2px;
+    
+    background-color: greenyellow;
+
+}
+
+.invalido{
+    width: fit-content; /*Adapta el ancho al contenido*/
+    
+    display: inline-block;
+
+    font-size: large;
+    text-align: center;
+    border: 2px solid;
+    padding: 2px;
+    
+    background-color: palevioletred;
+}
+h3{
+    text-align: center;
+}
+
+
+    
