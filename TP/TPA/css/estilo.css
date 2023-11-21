@@ -1,0 +1,17 @@
+.estilo-bg{
+    background-image: url('../imagenes/tienda.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:100vh;
+}
+
+.card-img-top {
+    
+    height: 150px;
+    object-fit: contain;
+}
+
+
+
+
+
